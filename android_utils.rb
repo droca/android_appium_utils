@@ -3,8 +3,6 @@ module AndroidUtils
 
   APPIUM_PATH ||= '/usr/local/lib/node_modules/appium'
 
-  # Create a custom World class so we don't pollute `Object` with Appium methods
-
   #
   # Starts the Appium server locally.
   # The standard default Appium path on a Mac machine is set in APPIUM_PATH
